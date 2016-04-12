@@ -1,2 +1,6 @@
 # factslap
 A URL redirection web app
+
+This app ...
+
+Place the files in the html directory ...

@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !^/factslap/$
+RewriteCond %{REQUEST_URI} !^/factslap/index.cgi$
+#RewriteCond %{REQUEST_URI} !^/factslap/index.html$
+RewriteCond %{REQUEST_URI} !^/factslap/c-s-s/.+$
+RewriteCond %{REQUEST_URI} !^/factslap/j-s/.+$
+RewriteCond %{REQUEST_URI} !^/factslap/jump.cgi$
+RewriteRule ^(.*)$ http://didomenico.us/factslap/jump.cgi?s=$1 [R=302,L,NS]

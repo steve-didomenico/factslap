@@ -1,0 +1,82 @@
+body, div {
+    font-family: 'lucida grande',helvetica,verdana,arial,sans-serif;
+		font-size: 12px;
+}
+
+#titleimage {
+	text-align: center;
+	height: 100px;
+	margin-top: 50px;
+}
+
+#factlink {
+	border: 0;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+#content {
+	text-align: center;
+}
+
+#form {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+}
+
+.footer {
+	margin-top: 100px;
+	text-align: center;
+	font-size: 10px;
+}
+
+#title {
+	height: 50px;
+}
+
+#submitbutton {
+	text-align: center;
+}
+
+label.error {
+	color: red;
+	font-size: 12px;
+}
+
+input.error {
+    border: 1px dotted red;
+}
+
+input:focus {
+    border: 1px dotted black;
+}
+
+input {
+    border: 1px solid black;
+}
+
+#originalurl {
+	height: 200px;
+}
+
+#saved {
+	height: 25px;
+}
+
+#shorturl {
+	font-weight: bold;
+	height: 50px;
+}
+
+.newwindow {
+	font-weight: normal;
+	font-size: 10px;
+}
+
+.problem {
+	color: red;
+}
